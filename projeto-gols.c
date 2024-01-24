@@ -5,19 +5,19 @@ int main() {
 
     int gols_timeA, gols_timeB, diferenca_gols;
 
-    printf("Digite a quantidade de gols do time A:\n");
+    printf("Digite a quantidade de gols do Flamengo:\n");
     scanf("%d", &gols_timeA);
 
-    printf("Digite a quantidade de gols do time B:\n");
+    printf("Digite a quantidade de gols do Vasco:\n");
     scanf("%d", &gols_timeB);
 
     diferenca_gols = abs(gols_timeA - gols_timeB);
 
     if (gols_timeA > gols_timeB){
-        printf("O time A venceu.\n");
+        printf("O Flamengo venceu.\n");
     }
     else if (gols_timeB > gols_timeA){
-        printf("O time B venceu.\n");
+        printf("O Vasco venceu.\n");
     }
 
     if (diferenca_gols == 0) {
